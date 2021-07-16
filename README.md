@@ -8,6 +8,7 @@ Using the dsPIC33CH512MP508 dev board, this repository
 - Compiler used : XC16 v1.70 [download link](https://www.microchip.com/mplabxc16windows)
 - Development board used : [dsPIC33CH512MP508](https://www.microchip.com/Developmenttools/ProductDetails/DM330028-2)
 
+# How it started...
 
 After watching/following this [YouTube tutorial](https://www.youtube.com/watch?v=sQLZ3tIcd44&ab_channel=MicrochipTechnology) on how to use MCC to generate the code needed to use UART, if you were to clean/build the entire project as is, you'll get the following errors
 
@@ -24,7 +25,6 @@ nbproject/Makefile-default.mk:226: recipe for target 'build/default/production/m
 make[1]: *** [.build-conf] Error 2
 make: *** [.build-impl] Error 2
 ```
-## Fixing 'UART_example_READ'
 Since I usually program in C++, when it comes to using/implementing for loops, I use the following syntax and would assume everything was Gucci.
 
 ```cpp
