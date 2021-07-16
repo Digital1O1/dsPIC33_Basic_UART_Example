@@ -59,8 +59,7 @@ int main(void)
     //UART_example_RUNALL();
     while (1)
     {
-        //UART_example_RUNALL();
-        UART_example_PRINTF();
+        UART_example_RUNALL();
         __delay_ms(500);        
 
     }

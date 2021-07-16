@@ -113,8 +113,8 @@ void PIN_MANAGER_Initialize (void)
      ***************************************************************************/
     __builtin_write_RPCON(0x0000); // unlock PPS
 
-    RPOR13bits.RP59R = 0x0003;    //RC11->UART2:U2TX
     RPINR19bits.U2RXR = 0x003A;    //RC10->UART2:U2RX
+    RPOR13bits.RP59R = 0x0003;    //RC11->UART2:U2TX
 
     __builtin_write_RPCON(0x0800); // lock PPS
 }

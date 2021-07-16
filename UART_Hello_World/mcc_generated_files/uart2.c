@@ -353,6 +353,22 @@ bool UART2_IsTxDone(void)
     return false;
 }
 
+int __attribute__((__section__(".libc.write"))) write(int handle, void *buffer, unsigned int len) 
+{
+    unsigned int i;
+    uint8_t *data = buffer;
+
+    for(i=0; i<len; i++)
+    {
+        while(UART2_IsTxReady() == false)
+        {
+        }
+
+        UART2_Write(*data++);
+    }
+  
+    return(len);
+}
 
 /*******************************************************************************
 

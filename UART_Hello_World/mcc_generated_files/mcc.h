@@ -54,9 +54,9 @@
 #include "reset.h"
 
 #include "watchdog.h"
-#include "uart2.h"
 #include "interrupt_manager.h"
 #include "traps.h"
+#include "uart2.h"
 #include "reset.h"
 
 #warning "This file will be removed in future MCC releases. Use system.h instead."

@@ -47,8 +47,8 @@
       </entry>
    </usedClasses>
    <usedLibraries class="java.util.ArrayList">
-      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.mcu16.Mcu16PeripheralLibrary" version="1.170.0"/>
       <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.foundationservices.library.FoundationServicesLibrary" version="0.2.2"/>
+      <ILibraryFile class="com.microchip.mcc.core.library.BaseLibraryFile" libraryClass="com.microchip.mcc.mcu16.Mcu16PeripheralLibrary" version="1.170.0"/>
    </usedLibraries>
    <tokenMap class="java.util.TreeMap">
       <entry>
@@ -16577,7 +16577,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="UART" name="pubSubUARTConfigurations"/>
-         <value>3150.4662378615913</value>
+         <value>2147.857377511555</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="UART" name="usecaseComboSettings"/>
@@ -16585,7 +16585,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="UART" name="validate"/>
-         <value>0.7955933175644222</value>
+         <value>0.8016036894379788</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.PropertyTokenKey" moduleName="UART" name="uartConfigurationList%0%interruptState"/>
@@ -16633,7 +16633,7 @@
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="UART2" name="RedirectPrintf"/>
-         <value>disabled</value>
+         <value>enabled</value>
       </entry>
       <entry>
          <key class="com.microchip.mcc.core.tokenManager.CustomKey" moduleName="UART2" name="SWRXBufferSize"/>
@@ -17819,7 +17819,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\system.c</file>
-         <hash>cb71de3aa4b45b233c2231505f08e01b630680b0b881860a98943ac266467e45</hash>
+         <hash>c34065de5e524fea469472ca68c81629f444c79c7f344fdc7240d0777ba62e2a</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\clock.h</file>
@@ -17843,7 +17843,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\mcc.h</file>
-         <hash>629cb8d217c3ad8b7840243a3be9e960b34701d9cf7f2d19eac296cbd28580df</hash>
+         <hash>a2f25484af219cd0e170729edc79a719324a6f35d3a95754a9c2abc7882c94e0</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\uart2.h</file>
@@ -17863,7 +17863,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\uart2.c</file>
-         <hash>983b474a4307f0a7b69ccabd588714b63265f31d58ce36bf5618f73416a72a94</hash>
+         <hash>be28a3c45c0fae675b3d417a4eea94d4c0b220a33ea3b3a77eec9b28ca329fca</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\pin_manager.h</file>
@@ -17883,7 +17883,7 @@
       </entry>
       <entry>
          <file>mcc_generated_files\pin_manager.c</file>
-         <hash>60ce61136b64444d2472800bf12493efadb4a9d98073035c3b6d42c93a089e55</hash>
+         <hash>f0e547ccec541ff3308971a4a2f94d82fee35c3ab59bd7cbfe0b741b014f965d</hash>
       </entry>
       <entry>
          <file>mcc_generated_files\traps.c</file>
