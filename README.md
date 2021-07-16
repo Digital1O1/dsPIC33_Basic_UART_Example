@@ -140,5 +140,21 @@ After all that nonsense, you should be able to finally clean/build/compile your 
 
 ![image](https://user-images.githubusercontent.com/39348633/125972447-600d9ef0-944b-4496-aab7-308162695fb2.png)
 
+To see what COM port the discovery board is using, search for your 'Device Manager' and unplug/re-plug the discovery board's Isolated USB_UART port to see if it's being detected or not.
+
+In my case, COM9 is being used
+
+After uploading the code to the board, open up the MPLAB Data Visualizer.
+
+There's a drop down menu in the left most red circle that you'll need to enable both 'Plot raw' and 'Send to terminal'
+
+![image](https://user-images.githubusercontent.com/39348633/126007172-22c98e38-9f9c-467d-90fe-998ba7cd9f99.png)
+
+Once you've enabled both, you SHOULD see the COM port that's being read in the right most circle.
+
+![image](https://user-images.githubusercontent.com/39348633/126007276-9018823c-a7bd-434d-bbf0-b9fdf5fb26b9.png)
+
+If everything is good to go, whenever you type anything in the terminal window below, you should see the ASCII values being plotted in real time as shown below.
+
 ![image](https://user-images.githubusercontent.com/39348633/126006144-5c2c8785-4b10-4cf6-b9b1-324ce0fa810a.png)
 
