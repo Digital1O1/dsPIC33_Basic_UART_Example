@@ -1,7 +1,3 @@
-
-# dsPIC33_Basic_UART_Example
-Using the dsPIC33CH512MP508 dev board, this repository 
-
 # Important Note
 
 - IDE used : MPLAB X [download link](https://www.microchip.com/en-us/development-tools-tools-and-software/mplab-x-ide)
@@ -138,8 +134,11 @@ BUILD FAILED (exit value 2, total time: 5s)
 - Under 'Foundation Servies' click on 'UART' 
 - Under the 'Easy Setup' make sure you're using a unique name for the UART stuff versus 'UART1' which is what I did originally....
 
-![image](https://user-images.githubusercontent.com/39348633/125973541-5d48b837-9fea-473e-9348-548d18f8b21f.png)
-
+![image](https://user-images.githubusercontent.com/39348633/126005870-a9f00c19-d1d8-4079-beed-3dcffcaae496.png)
 
 After all that nonsense, you should be able to finally clean/build/compile your program.
+
 ![image](https://user-images.githubusercontent.com/39348633/125972447-600d9ef0-944b-4496-aab7-308162695fb2.png)
+
+![image](https://user-images.githubusercontent.com/39348633/126006144-5c2c8785-4b10-4cf6-b9b1-324ce0fa810a.png)
+
