@@ -156,6 +156,9 @@ In accordance to the [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc
 
 ![image](https://user-images.githubusercontent.com/39348633/126211728-2c63f335-8a6d-436d-be50-5d6f689f9274.png)
 
+![IMG_1448](https://user-images.githubusercontent.com/39348633/126212554-f5c7e867-cda8-4c7f-bc73-9e952157e11d.jpg)
+
+
 ### Which COM port to use?
 
 To see what COM port the discovery board is using, search for your 'Device Manager' and unplug/re-plug the discovery board's Isolated USB_UART port to see if it's being detected or not.
