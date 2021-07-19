@@ -105,6 +105,8 @@ Once again, this [Stackoverflow thread](![image](https://user-images.githubuserc
 - [Here's a link to some GCC docs if you're wanting to read them](https://gcc.gnu.org/onlinedocs/gcc/C-Dialect-Options.html#index-std-112)
 - If you're using either -std=c99, or the -std=gnu99 command, use ```__asm__``` instead of ```asm```
 
+![image](https://user-images.githubusercontent.com/39348633/126211948-48f8f1b2-d556-4951-916e-aaf8eaa2b5ba.png)
+
 ### Don't use 'UART1' when using MCC to generate UART code
 
 Doing so will result with this
@@ -139,6 +141,22 @@ BUILD FAILED (exit value 2, total time: 5s)
 After all that nonsense, you should be able to finally clean/build/compile your program.
 
 ![image](https://user-images.githubusercontent.com/39348633/125972447-600d9ef0-944b-4496-aab7-308162695fb2.png)
+
+### Go back to the MPLAB Code Configuratior (MCC) 
+
+![image](https://user-images.githubusercontent.com/39348633/126210598-a055f522-6d84-466e-9a34-2c35cdf9c4e5.png)
+
+And find the 'Pin Manager : Package View'. Find pin(s) 66 and 67, right click on them individually and set 67 as the TX pin, and 66 as the RX pin.
+
+![image](https://user-images.githubusercontent.com/39348633/126210853-cbbf6a3c-0b62-4e66-9d46-371ef7bb9bfa.png)
+
+### Why can we only use RC10/RC11 for the UART communciation despite there being TWO UART ports?
+
+In accordance to the [datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/DS50002801%20-%20dsPIC33CH%20Curiosity%20Development%20Board%20Users%20Guide.pdf), both pins RC10/RC11 are used for the external Isolated USB-ART port which is what's being used for the MPLAB's Data Visualizer while pin(s) RD0/RD1 AREN'T connected to the Isolated USB-UART port.
+
+![image](https://user-images.githubusercontent.com/39348633/126211728-2c63f335-8a6d-436d-be50-5d6f689f9274.png)
+
+### Which COM port to use?
 
 To see what COM port the discovery board is using, search for your 'Device Manager' and unplug/re-plug the discovery board's Isolated USB_UART port to see if it's being detected or not.
 
